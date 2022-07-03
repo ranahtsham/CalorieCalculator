@@ -17,7 +17,6 @@ django-admin startapp Fityfeed
 ```
 
 ##Migrations
-Create a superuser and apply all migrations
 ```
 py manage.py makemigrations
 py manage.py migrate
