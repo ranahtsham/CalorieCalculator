@@ -15,3 +15,16 @@ django-admin startproject CalorieCalculator
 cd  CalorieCalculator
 django-admin startapp Fityfeed
 ```
+
+##Migrations
+Create a superuser and apply all migrations
+```
+py manage.py makemigrations
+py manage.py migrate
+py manage.py createsuperuser
+```
+
+# Run Server
+```
+python manage.py runserver
+```
